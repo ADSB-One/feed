@@ -15,15 +15,15 @@ sudo bash /tmp/feed.sh
 ```
 
 ## 3: Use netstat to check that your feed is working
-The feed IP for adsb.one is 198.50.158.1
+The feed IP for adsb.one is 49.13.5.81
 
 ```
 netstat -t -n | grep -E '64004|64006'
 ```
 Expected Output:
 ```
-tcp        0      0 LOCALHOST:33842       198.50.158.1:64004      ESTABLISHED
-tcp        0      0 LOCALHOST:55282       198.50.158.1:64006      ESTABLISHED
+tcp        0      0 LOCALHOST:33842       49.13.5.81:64004      ESTABLISHED
+tcp        0      0 LOCALHOST:55282       49.13.5.81:64006      ESTABLISHED
 
 ```
 
